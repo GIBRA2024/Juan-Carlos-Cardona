@@ -1,10 +1,10 @@
 function descargarContacto() {
     const vcardData = `BEGIN:VCARD
 VERSION:3.0
-N:Jimenez Arana;Javier;;;
-FN:Javier Jimenez Arana
-TEL:+57 315 5843205
-EMAIL;TYPE=WORK: gerencia@cervalle.com
+N:Cardona;Juan;Carlos;;
+FN:Juan Carlos Cardona
+TEL:+57 315 6978120
+EMAIL;TYPE=WORK: jcc.cardonac@gmail.com
 ADR;TYPE=WORK:;;Cra. 29b #11-90;Acopi;Yumbo;;Colombia
 END:VCARD`;
 
