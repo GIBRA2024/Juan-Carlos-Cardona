@@ -14,7 +14,7 @@ body {
     padding: 20px;
     text-align: center;
     width: 450px;
-    height: 600px;
+    height: 700px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -55,7 +55,7 @@ h2, h3 {
 }
 
 footer {
-    margin: 210px 0;
+    margin: 160px 0;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
