@@ -26,6 +26,8 @@
            target="_blank"><img src="Imagenes/file-lines-solid.png" alt="Pagina Web">Brochure</a>
         <a href="#" id="link-centralizado"
            target="_blank"><img src="Imagenes/list-ul-solid.png" alt="Lista">Lista de precios</a>
+        <a id="link-video" href="#"
+            target="_blank"><img src="Imagenes/star-solid.png" alt="Pagina Web">Porkweek</a>
     </div>
 
     <footer>
@@ -37,6 +39,16 @@
        .then(res => res.text())
        .then(link => {
          document.getElementById("link-centralizado").href = link.trim();
+       })
+       .catch(error => {
+         console.error("No se pudo cargar el link:", error);
+       });
+   </script>
+    <script>
+     fetch("https://gibra2024.github.io/Enlace-Cervalle/link-video.txt") // tu URL aquí
+       .then(res => res.text())
+       .then(link => {
+         document.getElementById("link-video").href = link.trim();
        })
        .catch(error => {
          console.error("No se pudo cargar el link:", error);
